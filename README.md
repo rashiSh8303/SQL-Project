@@ -78,15 +78,15 @@ The Online Book Store SQL project aims to efficiently manage book sales, custome
 ## Solution :
     SELECT books.author, SUM(orders.quantity) AS total_books_sold
     from orders
-    join books ON orders.book_id = books.book_id
+    JOIN books ON orders.book_id = books.book_id
     GROUP BY books.author;
  
 ## 6. List the cities where customers who spent over $30 are
 ## Solution :
     select DISTINCT customers.city, total_amount
-     from orders
-     join customers ON orders.customer_id = customers.customer_id
-     WHERE orders.total_amount > 30;
+    from orders
+    JOIN customers ON orders.customer_id = customers.customer_id
+    WHERE orders.total_amount > 30;
 ## 7. Find the customer who spent the most on erders
 ## Solution :
     select customers.customer_id, customers.name, SUM(orders.total_amount) AS total_spent

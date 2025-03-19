@@ -10,6 +10,6 @@ The Online Book Store SQL project aims to efficiently manage book sales, custome
 
 ## Questions & Solution
 1. Retrieve all books in the "Fiction" genre:
-
-'''SELECT * FROM Books 
-WHERE Genre='Fiction';'''
+                                SELECT * FROM Books 
+                      WHERE Genre='Fiction';
+ 

@@ -9,7 +9,7 @@ The Online Book Store SQL project aims to efficiently manage book sales, custome
 ## Entity Relationship Diagram
 
 ## Questions & Solution 
-    1. Retrieve all books in the "Fiction" genre:
+## 1. Retrieve all books in the "Fiction" genre:
                       SELECT * FROM Books 
                       WHERE Genre='Fiction';
  

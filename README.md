@@ -1,9 +1,9 @@
 # Project Title 
 # Online Book Store Management System
 ## Table of Contents
-   Business Task 
-   Entity Relationship Diagram
-   Question & Solutions
+   1. Business Task 
+   2. Entity Relationship Diagram
+   3. Question & Solutions
 # Business Task 
 The Online Book Store SQL project aims to efficiently manage book sales, customer interactions, and inventory. It provides a structured SQL database to streamline operations for an online book store. 🚀
 ## Entity Relationship Diagram
